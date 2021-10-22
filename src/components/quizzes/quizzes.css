@@ -1,0 +1,92 @@
+.componentContainer {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  min-width: 50vw;
+  max-width: 80vw;
+}
+
+.rulesContainer {
+  min-width: 40vw;
+  max-width: 50vw;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myQuizzes {
+  display: flex;
+  flex-direction: row;
+}
+
+.margin {
+  margin: 2rem 0;
+}
+
+/* ++++++++++++++++++ */
+
+/* input[type="checkbox"] {
+  display: none;
+}
+
+input:checked + label {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  color: #ffffff;
+  background-color: #fe7f2a;
+} */
+/* 
+input:checked + label:before {
+  content: "\2713 ";
+} */
+
+/* new stuff */
+/* .check {
+  visibility: hidden;
+}
+
+input:checked + label .check {
+  visibility: visible;
+}
+
+input.checkbox:checked + label:before {
+  content: "";
+} */
+
+.cheeky[type="checkbox"] {
+  display: none;
+}
+
+.cheeky:checked + label {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  color: #ffffff;
+  background-color: #fe7f2a;
+}
+/* 
+input:checked + label:before {
+  content: "\2713 ";
+} */
+
+/* new stuff */
+.check {
+  visibility: hidden;
+}
+
+.cheeky:checked + .labelo .check {
+  visibility: visible;
+}
+
+.cheeky.checkbox:checked + .labelo:before {
+  content: "";
+}

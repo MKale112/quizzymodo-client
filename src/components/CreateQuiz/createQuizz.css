@@ -1,0 +1,21 @@
+.center_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.center_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.distance {
+  margin: 0 1rem;
+}
+
+.tac {
+  text-align: center;
+}
